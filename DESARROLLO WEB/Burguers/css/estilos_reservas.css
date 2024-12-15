@@ -1,0 +1,221 @@
+
+  
+.seccion-menu-principal{
+    position: fixed;
+    z-index: 2;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 1295px;
+    height: 100px;
+    background: black;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    padding-left: 100px;
+}
+.lista-menu-principal li{
+    position: relative;
+    left: 90px;
+    float: left; 
+    font-size: 22px;  
+    padding-top: 19px;
+}
+       
+.lista-menu-principal li a{
+    color: white;
+    transition: 1s;
+} 
+
+.lista-menu-principal li:hover>a{
+    color: #FF5733;
+}
+
+.main-burguer-house{
+    position: relative;
+    top: 90px;
+    left: -8px;
+    width: 1295px;
+    height: 800px;
+    background-image: url("../imagenes/principal.webp");
+    background-size: 100% 100%;
+}
+
+.titulo-burguer{
+    position: relative;
+    font-size: 55px; 
+    left: 450px;
+    top: 140px;
+}
+
+.menu-opciones-comunicacion li{   
+    position: relative;     
+    left: 1050px;
+    top: -95px;
+    float: left;
+}  
+ 
+.lista-menu-principal .reservas-opcion a{   
+    color: #FF5733;    
+    position: relative;
+}
+
+.menu-opciones-comunicacion li a{
+    padding-left: 25px;
+}
+
+.gourmet-burgers{
+    position: relative;
+    font-size: 45px;
+    left: 370px;
+    top: 175px;
+}
+ .gourmet-burgers2{
+    position: relative;
+    font-size: 75px; 
+    left: 480px;
+    top: 110px;
+ }
+      
+.lugar{
+    position: relative;
+    left: 140px;
+    top: 30px;
+    width: 320px;
+    height: 70px;
+    border:solid 2px black;
+    float: left;
+    margin: 20px;
+    background: white;
+    opacity: 0.7;
+    transition: 0.7s;
+}
+.lugar:hover{
+    background: black;
+}
+
+.lugar p{ 
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    transition: 0.7s;
+}
+.lugar:hover>p{
+    color: white;
+}
+
+.seccion-info-contacto{
+    position: relative;
+    z-index: 1;
+    top: 90px;
+    left: -10px;
+    width: 1350px;
+    height: 690px;
+    background: black;
+}
+
+.carta-info{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    left: 20px; 
+    top: 35px;
+    width: 280px;
+    height: 340px;
+    color: white;
+    border:solid 1px white;
+    text-align: center;
+}
+
+.correo{
+    position: absolute;
+    left: 960px;
+    top: 50px;
+    width: 350px;
+    height: 220px;
+    background: black; 
+    display: block;
+} 
+
+.titulo-seccion-info{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    top: 15px;
+}
+
+.correo input{
+    width: inherit;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.ingresaMail{
+    transition:all 0.5s;
+}
+
+.ingresaMail:hover{
+    font-size: 17px;
+}
+
+.unirse{
+    background: black;
+    color: white;     
+    transition:all 1s;
+    border:solid 4px gray;
+}
+.unirse:hover{
+    border:black;
+    background: #343030;
+}
+
+.facturaAqui{
+    position: relative;
+    top: 450px;
+    right: 800px;
+    z-index: 1;
+    font-size: 20px;  
+    color: white;
+}
+
+.facturaAqui:hover{
+    color: gray;
+}
+
+.direccion-correo a{
+    position: relative;
+    left: -45px;
+    color:white;
+      
+}   
+
+.comunicarse{
+    position: absolute;
+    left: 535px;
+    top: 430px;
+    width: 250px;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+
+.derechosAutor{
+    position: relative;
+    top: 420px;
+    left: 40px;
+    color: white;
+}
+      
+
+
+
+

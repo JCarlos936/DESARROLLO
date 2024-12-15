@@ -1,0 +1,339 @@
+
+
+a{
+    text-decoration:none;
+}
+
+  
+li{
+    list-style: none;
+}
+
+
+.linea-contacto-info li a{
+    padding: 50px;
+    color: white;
+    font-size: 18px;
+    font-family: bold;
+}
+
+.linea-contacto-info li{
+    float: left;
+    margin-left: 100px;
+    padding-bottom: 15px;
+}
+
+.linea-contacto-info{
+    position:fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+    background: #22BCAC; /*Color de la cinta de opciones del  menu*/
+}
+
+.opciones-info li img{
+    padding-right: 10px;
+}
+
+.seccion-agenda-tratamiento{
+    margin-top: 30px;
+    margin-left: -8px;
+    width: 100%;
+    height: 90px;
+    background: black;
+    position: fixed;
+    z-index: 1; 
+}
+
+ 
+.menu-opciones{/*Posicionamiento de opciones de menú*/
+    margin-left: 250px;
+    margin-top: 20px;   
+    transition:all 0.7s;
+} 
+
+
+.menu-opciones ul{
+    float: lft;
+    width: 200px;
+    height: 50px;
+}
+
+.submenu-tratamientos{
+    position: relative;
+    top: 7px;
+    left: 5px;  
+    display: noe;  
+    z-index: 1;  
+}
+.menu-opciones:hover>.submenu-tratamientos{
+    display: block;
+} 
+
+.seccion-agenda-tratamiento .menu-opciones:hover>.submenu-tratamientos li{
+    display: block; 
+}
+
+.menu-opciones .submenu-tratamientos li{
+    position: relative;
+    top: 150px;
+    left: -370px;
+    width: 230px;
+    height: 55px;
+    line-height: 3px; 
+    background: black;
+}  
+
+.submenu-tratamientos{
+    display: none;
+}
+
+.seccion-agenda-tratamiento .menu-opciones li:hover>.submenu-tratamientos{
+    display: block; 
+}
+
+.seccion-agenda-tratamiento .menu-opciones li:hover>.submenu-tratamientos li{
+    color: white;
+}
+
+.submenu-tratamientos li a{
+    padding: 3px;
+}
+.menu-opciones .submenu-tratamientos:hover>li a{
+    color:#22BCAC;
+}
+
+.menu-opciones li:hover>a{
+    color:white; 
+}
+
+
+.logo-velinta{
+    width: 170px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+
+
+
+.seccion-agenda-tratamiento ul{
+    position: relative;
+    padding-left: 550px;
+    top: -75px;
+    
+}
+
+.seccion-agenda-tratamiento li a{
+    color:#22BCAC;/*Color verde usado para las letras*/
+    float: left;
+    padding: 25px;
+    font-size: 20px;
+}
+
+
+
+   
+ 
+   
+.seccion-agenda-cita .texto-agenda-cita{/*Sección de la opción de "Agenda Una Cita"*/
+    position: fixed;
+    width: 160px;
+    height: 10px;
+    left: 1080px;
+    top: 50px; 
+    border-radius:20px;
+    text-align: center;
+    align-items: center;
+    background: #22BCAC;
+    color: black;
+    font-family: bold;
+    transition:all 0.3s;
+}
+
+.seccion-agenda-cita:hover>.texto-agenda-cita{
+ background: white;
+ width: 165px;   
+ height: 15px;
+ color: black;
+}
+
+
+
+
+.main-info-maxilar{
+    position: relative;
+    top: 120px;
+    right: 8px;
+    width: 1320px;
+    height: 700px;
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-image: url("../imagenes/i15.jpg");
+}
+
+.titulo-izq-ortopedia{
+    position: relative;
+    font-size: 60px;
+    color: white;
+    top: 260px; 
+    left: 100px;
+}
+ 
+.contenedor-info{
+    position: relative;
+    left: 850px;
+    bottom: 195px;
+    width: 350px;
+    height: 490px;
+    background: #22BCAC;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.contenedor-info input{
+    margin: auto; 
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+textarea{
+    width: 90%;
+    height: 150px;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 10px;
+} 
+
+.btn-enviar-formulario{
+    position: relative;
+    left: 195px;
+    top: 30px; 
+    width: 120px;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 18px;
+    background: black;
+    color: white;
+}
+.btn-enviar-formulario:hover{
+    background: #fbfcfc;
+    color: black;
+}
+
+
+.contenedor-izq-info{
+    position: relative;
+    top: 120px;
+    right: 8px;
+    width: 1320px;
+    height: 400px;
+    background: white;
+}
+
+.contenedor-izq-info section{
+    width: 50%;
+    height: inherit;
+    background: white;
+}
+
+.contenedor-izq-info text{
+    position: relative;
+    left: 70px;
+    top: 40px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.contenedor-imagenes{
+    position: absolute;
+    float: left;
+    margin-left: 50%;
+    top: 0px;
+    width: 50%;
+    height: inherit;
+    background: yellow;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url("../imagenes/Ortopedia-Maxilar.png");
+}
+  
+
+.recomendacion-acudir{
+    position: relative;
+    right: 8px;
+    top: 150px;
+    width: 1320px;
+    height: 500px;
+    background: white;
+}
+.recomendacion-acudir p{
+    font-size: 55px;
+    padding-top: 120px;
+    padding-left: 160px;
+    color: #22BCAC;
+
+}
+.recomendacion-acudir aside{
+    width: 50%;
+    height: inherit;
+    background: white;
+    margin-left: 50%;
+    margin-top: -427px;
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

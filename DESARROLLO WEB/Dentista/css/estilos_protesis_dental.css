@@ -1,0 +1,335 @@
+
+
+
+a{
+    text-decoration:none;
+}
+
+  
+li{
+    list-style: none;
+}
+
+  
+.linea-contacto-info li a{
+    padding: 50px;
+    color: white;
+    font-size: 18px;
+    font-family: bold;
+}
+
+.linea-contacto-info li{
+    float: left;
+    margin-left: 100px;
+    padding-bottom: 15px;
+}
+
+.linea-contacto-info{
+    position:fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+    background: #22BCAC; /*Color de la cinta de opciones del  menu*/
+}
+
+.opciones-info li img{
+    padding-right: 10px;
+}
+
+.seccion-agenda-tratamiento{
+    margin-top: 30px;
+    margin-left: -8px;
+    width: 100%;
+    height: 90px;
+    background: black;
+    position: fixed;
+    z-index: 1; 
+}
+
+ 
+.menu-opciones{/*Posicionamiento de opciones de menú*/
+    margin-left: 250px;
+    margin-top: 20px;   
+    transition:all 0.7s;
+} 
+
+
+.menu-opciones ul{
+    float: lft;
+    width: 200px;
+    height: 50px;
+}
+
+.submenu-tratamientos{
+    position: relative;
+    top: 7px;
+    left: 5px;  
+    z-index: 1;
+}
+.menu-opciones:hover>.submenu-tratamientos{
+    display: block;
+} 
+
+.seccion-agenda-tratamiento .menu-opciones:hover>.submenu-tratamientos li{
+    display: block; 
+}
+
+.menu-opciones .submenu-tratamientos li{
+    position: relative;
+    top: 150px;
+    left: -370px;
+    width: 230px;
+    height: 55px;
+    line-height: 3px;
+    background: black;
+}  
+
+.submenu-tratamientos{
+    display: none;
+}
+
+.seccion-agenda-tratamiento .menu-opciones li:hover>.submenu-tratamientos{
+    display: block; 
+}
+
+.seccion-agenda-tratamiento .menu-opciones li:hover>.submenu-tratamientos li{
+    color: white;
+}
+
+.submenu-tratamientos li a{
+    padding: 3px;
+}
+.menu-opciones .submenu-tratamientos:hover>li a{
+    color:#22BCAC;
+}
+
+.menu-opciones li:hover>a{
+    color:white; 
+}
+
+
+.logo-velinta{
+    width: 170px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+.seccion-agenda-tratamiento ul{
+    position: relative;
+    padding-left: 550px;
+    top: -75px;
+    
+}
+
+.seccion-agenda-tratamiento li a{
+    color:#22BCAC;/*Color verde usado para las letras*/
+    float: left;
+    padding: 25px;
+    font-size: 20px;
+}
+
+
+   
+.seccion-agenda-cita .texto-agenda-cita{/*Sección de la opción de "Agenda Una Cita"*/
+    position: fixed;
+    width: 160px;
+    height: 10px;
+    left: 1080px;
+    top: 50px; 
+    border-radius:20px;
+    text-align: center;
+    align-items: center;
+    background: #22BCAC;
+    color: black;
+    font-family: bold;
+    transition:all 0.3s;
+}
+
+.seccion-agenda-cita:hover>.texto-agenda-cita{
+ background: white;
+ width: 165px;   
+ height: 15px;
+ color: black;
+}
+
+.protesis-dental-main{
+    position: relative;
+    top: 120px;
+    right: 8px;
+    width: 1325px;
+    height: 500px;
+    background: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../imagenes/i19.jpg");
+}    
+
+.protesis-dental-main .titulo-protesis{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    margin: 0px;
+    padding-left: 20px;
+    font-size: 50px;
+    color: white;
+    background: black;
+    width: 210px;
+    height: 130px;
+}
+
+.contenedor-login{
+    position: relative;
+    bottom: 120px;
+    left: 710px;
+    width: 480px;
+    height: 460px;
+    background: #22BCAC;
+    border-radius: 8px;
+}
+
+.contenedor-login input{
+    display: block;
+    width: 90%;
+    height: 45px;
+    margin: auto;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+textarea{
+    position: relative;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    left: 25px;
+    width: 90%;
+    height: 100px;
+}
+
+.btn-enviar{
+    background: black;
+    color: white;
+}
+
+.btn-enviar:hover{
+    background: white;
+    color: #f7c13e;
+}
+
+
+
+
+.contenedor-izq-info{
+    position: relative;
+    top: 120px;
+    right: 8px;
+    width: 1320px;
+    height: 400px;
+    background: white;
+}
+
+.contenedor-izq-info section{
+    width: 50%;
+    height: inherit;
+    background: white;
+}
+
+.contenedor-izq-info text{
+    position: relative;
+    left: 70px;
+    top: 40px;
+    font-size: 20px;
+    text-align: justify;
+}
+  
+
+.contenedor-imagenes{
+    position: absolute;
+    float: left;
+    margin-left: 50%;
+    top: 50px;
+    width: 45%;
+    height: 80%;
+    background: yellow;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url("../imagenes/protesis-e-implantes-acapulco.jpg");
+}
+  
+
+
+
+.contenedor-dentistas{
+    position: relative;
+    top: 210px;
+    right: 10px;
+    width: 1320px;
+    height: 700px;
+    background: black;
+}
+
+
+
+
+.img-dentista{
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 600px;
+    height: 530px; 
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url("../imagenes/dr-emiliano-camarillo-solano-817x1024.jpg");
+    background-size: 80% 100%;
+}
+
+.txt-personal{
+    position: relative;
+    bottom: 520px;
+    left: 700px;
+    width: 580px;
+    height: 600px;
+} 
+
+.txt-personal .objetivos-personales{
+    position: relative;
+    left: 10px;
+    font-size: 35px;
+    color: #22BCAC;
+}
+
+
+.txt-personal .texto-descripcion{
+    position: relative;
+    bottom: 10px;
+    right: 0px;
+    font-size: 18px;
+    text-align: justify;
+    color: white;
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

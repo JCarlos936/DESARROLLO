@@ -1,0 +1,250 @@
+
+
+.seccion-menu-principal{
+    position: fixed;
+    z-index: 2; 
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 1367px;
+    height: 100px;
+    background: black;
+
+}
+
+li{  
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    padding-left: 100px;
+}
+.lista-menu-principal li{
+    position: relative;
+    left: 90px;
+    float: left; 
+    font-size: 22px;  
+    padding-top: 19px;
+}
+       
+.lista-menu-principal li a{
+    color: white;
+    transition: 1s;
+} 
+
+.lista-menu-principal li:hover>a{
+    color: #FF5733;
+}
+  
+.lista-menu-principal .reservas-opcion a{
+    color: #FF5733;
+}
+
+.seccion-aplicar{
+    position: relative;
+    top: 91px;
+    left: -10px;
+    width: 1369px;
+    height: 600px;
+    background: white;
+}
+
+.titulo-empleo{
+    font-size: 90px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.rellenear-formulario{
+    position: relative;
+    left: 400px;
+    bottom: 60px;
+    width: 550px;
+    height: 400px;
+    background: white;
+}
+
+
+.titulo-formulario{
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+
+.datos-formulario li input{
+    margin-top: 10px;
+    width: 450px;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.5s;
+    color: white;
+    border: 0;
+    color: black;
+}    
+    
+.opciones-posicion{
+    width: 450px;
+    height: 30px;
+    border:0px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.datos-formulario li:hover>input{
+    border-bottom: solid 4px black;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}  
+
+.btn-aplicar{
+    position: relative;
+    left: 100px;
+    top: 30px;
+    width: 230px;
+    height: 50px;
+    font-size: 26px;
+    border:solid 3px black;
+    transition: all 0.6s;
+}
+
+.btn-aplicar:hover{
+    background: black;
+    color: white;
+}
+
+
+
+
+
+.seccion-info-contacto{
+    position: relative;
+    z-index: 1;
+    top: 90px;
+    left: -10px;
+    width: 1350px;
+    height: 690px;
+    background: black;
+}
+
+.carta-info{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    left: 20px; 
+    top: 35px;
+    width: 280px;
+    height: 340px;
+    color: white;
+    border:solid 1px white;
+    text-align: center;
+}
+
+.correo{
+    position: absolute;
+    left: 960px;
+    top: 50px;
+    width: 350px;
+    height: 220px;
+    background: black; 
+    display: block;
+} 
+
+.titulo-seccion-info{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    top: 15px;
+}
+
+.correo input{
+    width: inherit;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.ingresaMail{
+    transition:all 0.5s;
+}
+
+.ingresaMail:hover{
+    font-size: 17px;
+}
+
+.unirse{
+    background: black;
+    color: white;     
+    transition:all 1s;
+    border:solid 4px gray;
+}
+.unirse:hover{
+    border:black;
+    background: #343030;
+}
+
+.facturaAqui{
+    position: relative;
+    top: 450px;
+    right: 800px;
+    z-index: 1;
+    font-size: 20px;  
+    color: white;
+}
+
+.facturaAqui:hover{
+    color: gray;
+}
+
+.direccion-correo a{
+    position: relative;
+    left: -45px;
+    color:white;
+      
+}   
+
+.comunicarse{
+    position: absolute;
+    left: 535px;
+    top: 430px;
+    width: 250px;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+
+.derechosAutor{
+    position: relative;
+    top: 420px;
+    left: 40px;
+    color: white;
+}
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

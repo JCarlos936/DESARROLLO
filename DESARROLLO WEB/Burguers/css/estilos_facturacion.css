@@ -1,0 +1,349 @@
+
+
+.seccion-menu-principal{
+    position: fixed;
+    z-index: 2; 
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 1367px;
+    height: 100px;
+    background: black;
+
+}  
+
+li{  
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    padding-left: 100px;
+}
+
+.lista-menu-principal .opc-encuesta{
+    color: #FF5733;
+}
+  
+.lista-menu-principal li{
+    position: relative;
+    left: 90px;
+    float: left; 
+    font-size: 22px;  
+    padding-top: 19px;
+}
+       
+.lista-menu-principal li a{
+    color: white;
+    transition: 1s;
+} 
+
+.lista-menu-principal li:hover>a{
+    color: #FF5733;
+}
+  
+.lista-menu-principal .opc-facturacion a{
+    color: #FF5733;
+}
+
+
+.info-facturacion{
+    position: relative;
+    top: 100px;
+    width: 1000px;
+    height: 1700px;
+    background: white;
+    margin: auto;
+}
+
+.info-facturacion .img-fact{
+    margin-left: 230px;
+    width: 450px;
+    height: 300px;
+}
+
+.titulo-facturacion{
+    font-size: 35px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.texto-facturacion{
+    justify-content: center;
+    padding-left: 300px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.elige-facturacion{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+ 
+
+
+
+
+ 
+.lugar{
+    position: relative;
+    left: 100px;
+    display: flex;
+    float: left;
+    margin-left: 10px;
+    width: 135px;
+    height: 45px;
+    background: black;
+    transition: all 0.5s;
+}
+.lugar:hover{
+    background: white;
+    border:solid 1px black;
+}
+
+.lugar p{
+    position: relative;
+    color: white;
+    left: 30px;
+    transition: all 0.5s;
+}
+
+.lugar:hover>p{
+    color: black;
+}
+ 
+.segundo-lugar{
+    position: relative;
+    left: 200px;
+    display: flex;
+    float: left;
+    margin-left: 10px;
+    width: 135px;
+    height: 45px;
+    background: black;
+    transition: all 0.5s;
+}
+
+.segundo-lugar{
+    color: white;
+}
+  
+.segundo-lugar p{
+    position: relative;
+    color: white;
+    left: 30px;
+    transition: all 0.5s;
+} 
+
+.segundo-lugar:hover{
+    background: white;
+    border:solid 1px black;
+}
+.segundo-lugar:hover>p{
+    color: black;
+}
+
+
+.txt-ingresa{
+    position: relative;
+    top: 52px;
+    left: -300px;  
+    float: left;
+    font-size: 17px;
+}
+  
+     
+.facturaciondos{
+    position: relative;
+    top: 30px;
+    left: 20px; 
+    width: 750px;
+    height: 430px;
+    left: 190px;
+}
+   
+.facturacionTicket{
+    position: relative;
+    top: 160px;
+    left: -740px;
+    width: 240px;
+    height: 380px;
+}     
+
+
+.texto-indicaciones-facturar{
+    position: relative;
+    top: 30px;
+    left: 300px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+.facturacion-recordatorio{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    font-size: 20px;
+    width: 960px;
+    height: 50px;
+    padding-top: 25px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.aside-datos-correctos{
+    position: relative;
+    left: 50px;
+    top: 60px;
+    font-size: 20px;
+}
+
+.factura-ejemplo{
+    position: relative;
+    top: -260px;
+    left: 380px;
+}
+
+.factura-terminada{
+    position: relative;
+    top: -190px;
+    left: 380px;
+}
+
+
+
+
+.seccion-info-contacto{
+    position: relative;
+    z-index: 1;
+    top: 457px;
+    left: -10px;
+    width: 1350px;
+    height: 690px;
+    background: black;
+}
+
+.carta-info{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    left: 20px; 
+    top: 35px;
+    width: 280px;
+    height: 340px;
+    color: white;
+    border:solid 1px white;
+    text-align: center;
+}
+
+.correo{
+    position: absolute;
+    left: 960px;
+    top: 50px;
+    width: 350px;
+    height: 220px;
+    background: black; 
+    display: block;
+} 
+
+.titulo-seccion-info{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    top: 15px;
+}
+
+.correo input{
+    width: inherit;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.ingresaMail{
+    transition:all 0.5s;
+}
+
+.ingresaMail:hover{
+    font-size: 17px;
+}
+
+.unirse{
+    background: black;
+    color: white;     
+    transition:all 1s;
+    border:solid 4px gray;
+}
+.unirse:hover{
+    border:black;
+    background: #343030;
+}
+
+.facturaAqui{
+    position: relative;
+    top: 450px;
+    right: 800px;
+    z-index: 1;
+    font-size: 20px;  
+    color: white;
+}
+
+.facturaAqui:hover{
+    color: gray;
+}
+
+.direccion-correo a{
+    position: relative;
+    left: -45px;
+    color:white;
+      
+}   
+
+.comunicarse{
+    position: absolute;
+    left: 535px;
+    top: 430px;
+    width: 250px;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+
+.derechosAutor{
+    position: relative;
+    top: 420px;
+    left: 40px;
+    color: white;
+}
+      
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

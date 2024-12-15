@@ -1,0 +1,387 @@
+
+
+
+
+a{
+    text-decoration:none;
+}
+
+  
+li{
+    list-style: none;
+}
+
+
+.linea-contacto-info li a{
+    position: relative;
+    padding: 50px;
+    top: -5px;
+    color: white;
+    font-size: 18px;
+    font-family: bold;
+}
+
+.linea-contacto-info li{
+    float: left;
+    margin-left: 100px;
+    padding-bottom: 15px;
+}
+
+.linea-contacto-info{
+    position:fixed;
+    z-index: 1;
+    top: -2px;
+    right: 0px;
+    width: 100%;
+    height: 40px;
+    background: #22BCAC; /*Color de la cinta de opciones del  menu*/
+}
+
+.opciones-info li img{
+    padding-right: 10px;
+}
+
+
+
+
+.seccion-agenda-tratamiento{
+    margin-top: 30px;
+    margin-left: -7px;
+    width: 100%;
+    height: 90px;
+    background: black;
+    position: fixed;
+    z-index: 1; 
+}
+
+ 
+.menu-opciones{/*Posicionamiento de opciones de menú*/
+    margin-left: 250px;
+    margin-top: 20px;   
+    transition:all 0.7s;
+} 
+
+
+.menu-opciones ul{
+    float: lft;
+    width: 200px;
+    height: 50px;
+}
+
+.submenu-tratamientos{
+    position: relative;
+    top: 7px;
+    left: 5px;  
+    display: noe;  
+    z-index: 1;  
+}
+.menu-opciones:hover>.submenu-tratamientos{
+    display: block;
+} 
+
+.seccion-agenda-tratamiento .menu-opciones:hover>.submenu-tratamientos li{
+    display: block; 
+}
+
+.menu-opciones .submenu-tratamientos li{
+    position: relative;
+    top: 150px;
+    left: -370px;
+    width: 230px;
+    height: 55px;
+    line-height: 3px;
+    background: black;
+}  
+
+.submenu-tratamientos{
+    display: none;
+}
+
+.seccion-agenda-tratamiento .menu-opciones li:hover>.submenu-tratamientos{
+    display: block; 
+}
+
+.seccion-agenda-tratamiento .menu-opciones li:hover>.submenu-tratamientos li{
+    color: white;
+}
+
+.submenu-tratamientos li a{
+    padding: 3px;
+}
+.menu-opciones .submenu-tratamientos:hover>li a{
+    color:#22BCAC;
+}
+
+.menu-opciones li:hover>a{
+    color:white; 
+}
+
+
+.logo-velinta{
+    width: 170px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+.seccion-agenda-tratamiento ul{
+    position: relative;
+    padding-left: 550px;
+    top: -75px;
+    
+}
+
+.seccion-agenda-tratamiento li a{
+    color:#22BCAC;/*Color verde usado para las letras*/
+    float: left;
+    padding: 25px;
+    font-size: 20px;
+}
+
+
+
+   
+ 
+   
+.seccion-agenda-cita .texto-agenda-cita{/*Sección de la opción de "Agenda Una Cita"*/
+    position: fixed;
+    width: 160px;
+    height: 10px;
+    left: 1080px;
+    top: 50px; 
+    border-radius:20px;
+    text-align: center;
+    align-items: center;  
+    background: #22BCAC;
+    color: black;
+    font-family: bold;
+    transition:all 0.3s;
+}
+
+.seccion-agenda-cita:hover>.texto-agenda-cita{
+ background: white;
+ width: 165px;   
+ height: 15px;
+ color: black;
+}
+
+.main-login{
+position: relative;
+top: 120px;
+left: -10px;
+margin: auto;
+width: 1330px;
+height: 530px;
+background-size: 100% 100%;
+background-image: url("../imagenes/i20.jpg");
+}
+
+.texto-izq{
+    position: relative;
+    top: 130px;
+    left: 100px;
+    font-size: 70px;
+    color: white;
+    
+}
+
+
+.contenedor-login{
+    position: relative;
+    bottom: 178px;
+    left: 710px;
+    width: 480px;
+    height: 460px;
+    background: #22BCAC;
+}
+
+.contenedor-login input{
+    display: block;
+    width: 90%;
+    height: 45px;
+    margin: auto;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+textarea{
+    position: relative;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    left: 25px;
+    width: 90%;
+    height: 100px;
+}
+
+.btn-enviar{
+    background: black;
+    color: white;
+}
+
+.btn-enviar:hover{
+    background: white;
+    color: #f7c13e;
+}
+
+
+.seccion-info{
+    position: relative;
+    top: 106px;
+    left: -7px;
+    width: 1307px;
+    height: 500px;
+    background: white;
+}
+
+.seccion-info img{
+    position: relative;
+    top: 10px;
+    left: 100px;
+    width: 570px;
+    height: 450px;
+
+}
+ 
+.informacion-lateral{
+    position: relative;
+    left: 700px;
+    bottom: 450px;
+    width: 550px;
+    height: 450px;
+    background: white;
+    font-size: 20px;
+    text-align: justify;
+}
+  
+
+.opcion-ortodoncia{
+    position: relative;
+    top: 100px;
+    right: 8px;
+    width: 1300px;
+    height: 700px;
+    background: black;
+    margin: auto;
+    color: white;
+}
+
+.opcion-ortodoncia img{
+    margin-top: 70px;
+    margin-left: 120px;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.txt-info-ortodoncia{
+    position: relative;
+    width: 500px;
+    height: 470px;
+    left: 670px;
+    bottom: 600px;
+}
+
+.titulo-encabezado{
+    font-size: 40px;
+    text-align: left;
+}
+.texto-descripcion{
+    font-size: 19px;
+    text-align: justify;
+}
+
+
+.cartas-info{
+    position: relative;
+    top: 83px;
+    right: 8px;
+    width: 1310px;
+    height: 1400px;
+    background: black;
+}
+.cartas-info ul li{
+    float: left;
+}
+
+.carta-descripcion{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 330px;
+    height: 450px;
+    border-radius: 20px;
+    border:solid 0.5px white;
+}
+
+.titulo-tarjeta{
+    font-size: 25px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    color: white;
+}
+.carta-descripcion text{
+    position: relative;
+    left: 60px;
+    font-size: 19px;
+    text-align: justify;
+    line-height: 32px;
+    color: white;
+}
+.icon-spin4{
+    padding-left: 60px;
+    font-size: 40px;
+    color: #22BCAC;
+}
+
+
+.carta-descripcion-apiñamiento{
+    position: relative;
+    top: 1000px;
+    left: 90px;
+    width: 1100px;
+    height: 300px;
+    background: black;
+    border:solid 1px white;
+    border-radius: 20px;   
+    color: white;
+}
+.carta-descripcion-apiñamiento .icon-spin4{
+    position: absolute;
+    padding-bottom: 30px;
+}
+.carta-descripcion-apiñamiento .titulo-tarjeta{
+    position: absolute;
+    padding-top: 70px;  
+}
+.carta-descripcion-apiñamiento text{
+    position: absolute;
+    top: 150px;
+    right: 160px;
+    z-index: 1;  
+    font-size: 19px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

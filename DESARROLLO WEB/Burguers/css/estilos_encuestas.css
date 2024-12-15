@@ -1,0 +1,193 @@
+
+
+
+.seccion-menu-principal{
+    position: fixed;
+    z-index: 2; 
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 1367px;
+    height: 100px;
+    background: black;
+
+}  
+
+li{  
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    padding-left: 100px;
+}
+
+.lista-menu-principal .opc-encuesta{
+    color: #FF5733;
+}
+  
+.lista-menu-principal li{
+    position: relative;
+    left: 90px;
+    float: left; 
+    font-size: 22px;  
+    padding-top: 19px;
+}
+       
+.lista-menu-principal li a{
+    color: white;
+    transition: 1s;
+} 
+
+.lista-menu-principal li:hover>a{
+    color: #FF5733;
+}
+  
+.lista-menu-principal .encuesta-opcion a{
+    color: #FF5733;
+}
+
+.titulo-encuesta{  
+    position: relative;
+    top: 220px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.texto-mejorar{
+    padding-top: 170px;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+.collage-burguer{
+    margin: auto;
+    width: 900px;
+    height: 3150px;
+    background: white;
+}
+
+
+.collage-burguer li img{
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 500px;
+    height: 400px;
+}
+
+
+
+.seccion-info-contacto{
+    position: relative;
+    z-index: 1;
+    top: 90px;
+    left: -10px;
+    width: 1350px;
+    height: 690px;
+    background: black;
+}
+
+.carta-info{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    left: 20px; 
+    top: 35px;
+    width: 280px;
+    height: 340px;
+    color: white;
+    border:solid 1px white;
+    text-align: center;
+}
+
+.correo{
+    position: absolute;
+    left: 960px;
+    top: 50px;
+    width: 350px;
+    height: 220px;
+    background: black; 
+    display: block;
+} 
+
+.titulo-seccion-info{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    top: 15px;
+}
+
+.correo input{
+    width: inherit;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.ingresaMail{
+    transition:all 0.5s;
+}
+
+.ingresaMail:hover{
+    font-size: 17px;
+}
+
+.unirse{
+    background: black;
+    color: white;     
+    transition:all 1s;
+    border:solid 4px gray;
+}
+.unirse:hover{
+    border:black;
+    background: #343030;
+}
+
+.facturaAqui{
+    position: relative;
+    top: 450px;
+    right: 800px;
+    z-index: 1;
+    font-size: 20px;  
+    color: white;
+}
+
+.facturaAqui:hover{
+    color: gray;
+}
+
+.direccion-correo a{
+    position: relative;
+    left: -45px;
+    color:white;
+      
+}   
+  
+.comunicarse{
+    position: absolute;
+    left: 535px;
+    top: 430px;
+    width: 250px;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+
+.derechosAutor{
+    position: relative;
+    top: 420px;
+    left: 40px;
+    color: white;
+}
+      
+
+
+
+
+
+
+

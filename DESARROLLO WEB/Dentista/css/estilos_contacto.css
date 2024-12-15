@@ -1,0 +1,276 @@
+
+
+
+a{
+    text-decoration:none;
+}
+
+  
+li{
+    list-style: none;
+}
+
+
+.linea-contacto-info li a{
+    position: relative;
+    padding: 50px;
+    top: -5px;
+    color: white;
+    font-size: 18px;
+    font-family: bold;
+}
+
+.linea-contacto-info li{
+    float: left;
+    margin-left: 100px;
+    padding-bottom: 15px;
+}
+
+.linea-contacto-info{
+    position:fixed;
+    z-index: 1;
+    top: -2px;
+    right: 0px;
+    width: 100%;
+    height: 40px;
+    background: #22BCAC; /*Color de la cinta de opciones del  menu*/
+}
+
+.opciones-info li img{
+    padding-right: 10px;
+}
+
+
+
+
+.seccion-agenda-tratamiento{
+    margin-top: 30px;
+    margin-left: -7px;
+    width: 100%;
+    height: 90px;
+    background: black;
+    position: fixed;
+    z-index: 1; 
+}
+
+ 
+.menu-opciones{/*Posicionamiento de opciones de menú*/
+    margin-left: 250px;
+    margin-top: 20px;   
+    transition:all 0.7s;
+} 
+
+
+.menu-opciones ul{
+    float: lft;
+    width: 200px;
+    height: 50px;
+}
+
+.submenu-tratamientos{
+    position: relative;
+    top: 7px;
+    left: 5px;  
+    display: noe;  
+    z-index: 1;  
+}
+.menu-opciones:hover>.submenu-tratamientos{
+    display: block;
+} 
+
+.seccion-agenda-tratamiento .menu-opciones:hover>.submenu-tratamientos li{
+    display: block; 
+}
+
+.menu-opciones .submenu-tratamientos li{
+    position: relative;
+    top: 150px;
+    left: -370px;
+    width: 230px;
+    height: 55px;
+    line-height: 3px;
+    background: black;
+}  
+
+.submenu-tratamientos{
+    display: none;
+}
+
+.seccion-agenda-tratamiento .menu-opciones li:hover>.submenu-tratamientos{
+    display: block; 
+}
+
+.seccion-agenda-tratamiento .menu-opciones li:hover>.submenu-tratamientos li{
+    color: white;
+}
+
+.submenu-tratamientos li a{
+    padding: 3px;
+}
+.menu-opciones .submenu-tratamientos:hover>li a{
+    color:#22BCAC;
+}
+
+.menu-opciones li:hover>a{
+    color:white; 
+}
+
+
+.logo-velinta{
+    width: 170px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+.seccion-agenda-tratamiento ul{
+    position: relative;
+    padding-left: 550px;
+    top: -75px;
+    
+}
+
+.seccion-agenda-tratamiento li a{
+    color:#22BCAC;/*Color verde usado para las letras*/
+    float: left;
+    padding: 25px;
+    font-size: 20px;
+}
+
+
+
+   
+ 
+   
+.seccion-agenda-cita .texto-agenda-cita{/*Sección de la opción de "Agenda Una Cita"*/
+    position: fixed;
+    width: 160px;
+    height: 10px;
+    left: 1080px;
+    top: 50px; 
+    border-radius:20px;
+    text-align: center;
+    align-items: center;
+    background: #22BCAC;
+    color: black;
+    font-family: bold;
+    transition:all 0.3s;
+}
+
+.seccion-agenda-cita:hover>.texto-agenda-cita{
+ background: white;
+ width: 165px;   
+ height: 15px;
+ color: black;
+}
+
+
+.contenedor-lateral-izq{
+    position: relative;
+    top: 150px;
+    left: 80px;
+    width: 590px;
+    height: 600px;
+    background: white;
+
+}
+
+.txt-buscarDentista{
+    font-size: 42px;
+    text-align:start;
+    padding-top: 70px;
+}
+.txt-info{
+    font-size: 19px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.opciones-info{
+    position: relative;
+    right: 38px;
+    line-height: 30px;
+}
+
+.contenedor-lateral-izq a{
+    font-size: 40px;
+    background: #22BCAC;
+    color: white;
+}
+
+.contenedor-info{
+    position: relative;
+    left: 790px;
+    bottom: 390px;
+    width: 350px;
+    height: 490px;
+    background: #22BCAC;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.contenedor-info input{
+    margin: auto; 
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+textarea{
+    width: 90%;
+    height: 150px;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 10px;
+} 
+
+.btn-enviar-formulario{
+    position: relative;
+    left: 195px;
+    top: 30px; 
+    width: 120px;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 18px;
+    background: black;
+    color: white;
+}
+.btn-enviar-formulario:hover{
+    background: #fbfcfc;
+    color: black;
+}
+
+
+.direccion-mapa{
+    position: relative;
+    bottom: 270px;
+    width: 1280;
+    margin: auto;
+    height: 700px;
+    border:solid 2px black;
+    margin: auto;
+}
+.direccion-mapa iframe{
+    width: 1280px;
+    height: 700px;
+}
+
+
+ 
+ 
+
+  
+
+
+
+
+
+
+
+
+
+

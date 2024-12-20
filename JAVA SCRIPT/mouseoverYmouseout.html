@@ -1,0 +1,57 @@
+
+
+<html onload>
+<head>
+    <link rel="stylesheet" href="../css/estilos_main.css">
+</head>
+<body>
+
+<style>
+
+.contenedor{
+    width: 300px;
+    height: 300px;
+    border:solid 2px black;
+}
+
+a{
+    position: relative;
+    top: 50px;
+    padding-left: 30px; 
+}   
+
+
+
+</style>
+
+
+<div class="contenedor" id="contenedor"></div>
+<a onmouseover="color('green')" onmouseout="color('white')">VERDE</a>
+<a onmouseover="color('red')" onmouseout="color('white')">ROJO</a>
+<a onmouseover="color('blue')" onmouseout="color('white')">AZUL</a>
+
+    
+</body>  
+</html>         
+  
+
+
+<script>
+
+contenedor = document.getElementById("contenedor");
+   
+  
+function color(pintar){ 
+    contenedor.style.backgroundColor = pintar; 
+}
+
+
+
+
+</script>
+
+
+
+
+
+

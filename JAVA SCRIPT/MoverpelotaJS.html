@@ -1,0 +1,98 @@
+
+
+<html>
+<head>
+    <link rel="stylesheet" href="../css/estilos_main.css">
+</head>
+<body>
+
+<style>
+
+
+    .cuadro{
+        width: 200px;
+        height: 200px;
+        background: red;
+        border-radius: 100%;
+    }
+    
+    
+    
+</style>
+
+
+
+<div class="cuadro" id="cuadro"></div> 
+
+
+
+</body>  
+</html>
+
+
+<script>
+
+var mLeft = 0;
+var mTop = 0;
+var velocidad  = 50;
+
+cuadro = document.getElementById("cuadro");
+document.addEventListener("keydown",function(e){
+
+if(e.keyCode==37){
+moverIzquierda();
+}
+
+if(e.keyCode==39){
+    moverDerecha();
+}
+
+if(e.keyCode==38){
+    moverArriba();
+}
+
+if(e.keyCode==40){
+    moverAbajo();
+}
+
+
+
+  
+  
+
+
+})
+
+
+
+
+
+
+
+function moverDerecha(){
+mLeft += velocidad;
+cuadro.style.marginLeft = mLeft + "px";
+}
+
+
+function moverIzquierda(){
+mLeft -= velocidad;
+cuadro.style.marginLeft = mLeft + "px";
+}
+
+function moverArriba(){
+    mTop -= velocidad;
+    cuadro.style.marginTop = mTop + "px";
+}
+
+function moverAbajo(){
+    mTop += velocidad;
+    cuadro.style.marginTop = mTop + "px";
+}
+
+
+</script>    
+
+
+
+

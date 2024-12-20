@@ -1,0 +1,68 @@
+
+
+<html>
+	<head></head>
+	<body>
+   
+	<div class="" id="seccion" onmouseover="acciones()" onmouseout="pintar()"></div>
+   
+   
+</body>    
+</html>
+   
+   
+
+
+  
+
+
+<script>
+	
+	
+	
+	  seccion = document.getElementById("seccion");
+	  seccion.addEventListener('mouseover',f);
+	  seccion.addEventListener('mouseout',f2);
+	    
+	  
+	  function f(){
+	  seccion.style.borderRadius="100px";
+	  }
+	  
+	  function f2(){
+	  seccion.style.borderRadius="0px";
+	  }
+	  
+	  
+	function acciones(){    
+	  seccion.style.position="relative";
+	  seccion.style.backgroundColor="green";
+	  seccion.style.width="100px";
+	  seccion.style.transition="2s";
+	  seccion.style.height="50px";
+	}
+	    
+	function pintar(){    
+	  seccion.style.position="absolute";
+	  seccion.style.backgroundColor="red";
+	  seccion.style.width="200px";
+	  seccion.style.transition="2s";
+	  seccion.style.height="100px";
+	}
+	
+	
+	
+	seccion.style.backgroundColor="red";
+	seccion.style.width="200px";
+	seccion.style.height="100px";
+	seccion.style.marginLeft="300px";
+	seccion.style.marginTop="100px";
+	
+	
+</script>  
+
+
+
+
+
+
